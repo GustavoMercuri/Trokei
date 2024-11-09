@@ -1,0 +1,747 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.incio-child {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    background: linear-gradient(180deg, #f9d58f 2.2%, #f5f5dc 80.5%, #fcb442 98%);
+    width: 1728px;
+    height: 2049px;
+}
+.footer-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #e3bfa8;
+}
+.acompanhe-nossas-redes {
+    position: absolute;
+    height: 9.1%;
+    width: 15.86%;
+    top: 66.48%;
+    left: 43.11%;
+    line-height: 16px;
+    font-weight: 500;
+    display: inline-block;
+}
+.ant-designfacebook-filled-icon {
+    position: absolute;
+    height: 97.62%;
+    width: 16.1%;
+    top: 0%;
+    right: 83.9%;
+    bottom: 2.38%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.fa6-brandsinstagram-square-icon {
+    position: absolute;
+    height: 97.62%;
+    width: 16.24%;
+    top: 0%;
+    right: 55.77%;
+    bottom: 2.38%;
+    left: 27.99%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.fa6-brandsyoutube-square-icon {
+    position: absolute;
+    height: 97.62%;
+    width: 16.03%;
+    top: 2.37%;
+    right: 27.99%;
+    bottom: 0.01%;
+    left: 55.98%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.akar-iconslinkedin-box-fill {
+    position: absolute;
+    height: 97.62%;
+    width: 16.1%;
+    top: 2.37%;
+    right: -0.02%;
+    bottom: 0.01%;
+    left: 83.92%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.social-media {
+    position: absolute;
+    height: 8.31%;
+    width: 8.27%;
+    top: 78.95%;
+    right: 44.57%;
+    bottom: 12.74%;
+    left: 47.16%;
+}
+.footer-item {
+    position: absolute;
+    top: 37px;
+    left: 727px;
+    width: 309px;
+    height: 98px;
+    object-fit: contain;
+}
+.footer {
+    position: absolute;
+    height: 11.96%;
+    width: 98.91%;
+    top: 88.04%;
+    right: 1.03%;
+    bottom: 0%;
+    left: 0.06%;
+    font-size: 16px;
+    color: #e38850;
+}
+.mask-group-icon {
+    position: absolute;
+    top: 0px;
+    left: 19px;
+    width: 1728px;
+    height: 988px;
+}
+.union-icon {
+    position: relative;
+    width: 92.5px;
+    height: 92.3px;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    width: 70px;
+    height: 98px;
+    object-fit: cover;
+}
+.union-icon1 {
+    position: relative;
+    width: 61.5px;
+    height: 93px;
+}
+.subtract-icon {
+    position: relative;
+    width: 68px;
+    height: 71px;
+}
+.group-item {
+    position: absolute;
+    top: 29px;
+    left: 290px;
+    background-color: #80479e;
+    width: 16px;
+    height: 66px;
+}
+.group-inner {
+    position: absolute;
+    top: 1px;
+    left: 288px;
+    border-radius: 50%;
+    background-color: #80479e;
+    width: 21px;
+    height: 21px;
+}
+.group-icon {
+    position: absolute;
+    top: 128px;
+    left: 30px;
+    width: 48.8px;
+    height: 16.4px;
+    object-fit: contain;
+}
+.transformei-ganhei {
+    position: absolute;
+    top: 129px;
+    left: 79.7px;
+    line-height: 16px;
+    display: inline-block;
+    width: 221.3px;
+    height: 23px;
+}
+.marca-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 309px;
+    height: 152px;
+}
+.marca {
+    position: absolute;
+    top: 109px;
+    left: 56px;
+    width: 309px;
+    height: 152px;
+    font-size: 18px;
+}
+.informaes-child {
+    position: absolute;
+    top: 461px;
+    left: 0px;
+    box-shadow: 0px 16px 4px rgba(0, 0, 0, 0.33);
+    border-radius: 85px;
+    background: linear-gradient(180deg, #793a9a 30.1%, #7800b8 66.1%);
+    width: 1434px;
+    height: 312px;
+}
+.trokei-um {
+    position: absolute;
+    top: 515px;
+    left: 48px;
+    font-size: 40px;
+    line-height: 49px;
+    font-weight: 900;
+    text-align: left;
+    display: inline-block;
+    width: 1413px;
+    height: 46px;
+}
+.informaes-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 16px 4px rgba(0, 0, 0, 0.33);
+    border-radius: 85px;
+    background: linear-gradient(180deg, #fcb442 30.1%, #e38850 66.1%);
+    width: 407px;
+    height: 407px;
+}
+.informaes-inner {
+    position: absolute;
+    top: 0px;
+    left: 1027px;
+    box-shadow: 0px 16px 4px rgba(0, 0, 0, 0.33);
+    border-radius: 85px;
+    background: linear-gradient(180deg, #fcb442 30.1%, #e38850 66.1%);
+    width: 407px;
+    height: 407px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 0px;
+    left: 522px;
+    box-shadow: 0px 16px 4px rgba(0, 0, 0, 0.33);
+    border-radius: 85px;
+    background: linear-gradient(180deg, #fcb442 30.1%, #e38850 66.1%);
+    width: 407px;
+    height: 407px;
+}
+.informaes-child1 {
+    position: absolute;
+    top: 218px;
+    left: 49px;
+    border-radius: 55px;
+    background-color: #660996;
+    width: 308px;
+    height: 145px;
+}
+.informaes-child2 {
+    position: absolute;
+    top: 218px;
+    left: 572px;
+    border-radius: 55px;
+    background-color: #660996;
+    width: 308px;
+    height: 145px;
+}
+.informaes-child3 {
+    position: absolute;
+    top: 218px;
+    left: 1077px;
+    border-radius: 55px;
+    background-color: #660996;
+    width: 308px;
+    height: 145px;
+}
+.image-2-icon {
+    position: absolute;
+    top: 34px;
+    left: 640px;
+    border-radius: 85px;
+    width: 171px;
+    height: 169.4px;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+}
+.image-3-icon {
+    position: absolute;
+    top: 35px;
+    left: 1145px;
+    border-radius: 85px;
+    width: 171px;
+    height: 168.3px;
+    object-fit: cover;
+}
+.image-4-icon {
+    position: absolute;
+    top: 33px;
+    left: 114px;
+    border-radius: 85px;
+    width: 190px;
+    height: 170px;
+    object-fit: cover;
+}
+.doe-itens-que {
+    position: absolute;
+    top: 254px;
+    left: 92px;
+    line-height: 30px;
+    font-weight: 900;
+    display: inline-block;
+    width: 259px;
+    height: 109px;
+}
+.vector-icon {
+    position: absolute;
+    top: 328px;
+    left: 1106px;
+    max-height: 100%;
+    width: 249px;
+}
+.troque-os-trokados {
+    position: absolute;
+    top: 254px;
+    left: 1081px;
+    line-height: 30px;
+    font-weight: 900;
+    display: inline-block;
+    width: 284px;
+    height: 109px;
+}
+.tranforme-doaes-em {
+    position: absolute;
+    top: 254px;
+    left: 590px;
+    line-height: 30px;
+    font-weight: 900;
+    display: inline-block;
+    width: 284px;
+    height: 109px;
+}
+.informaes-child4 {
+    position: absolute;
+    top: 328px;
+    left: 597px;
+    max-height: 100%;
+    width: 249px;
+}
+.informaes-child5 {
+    position: absolute;
+    top: 328px;
+    left: 76px;
+    max-height: 100%;
+    width: 249px;
+}
+.informaes {
+    position: absolute;
+    top: 336px;
+    left: 181px;
+    width: 1461px;
+    height: 773px;
+    text-align: center;
+    font-size: 26px;
+    color: #fff;
+}
+.ellipse-div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    background-color: #660996;
+    width: 177px;
+    height: 97px;
+}
+.registre-se {
+    position: absolute;
+    top: 37px;
+    left: 18px;
+    line-height: 16px;
+}
+.ellipse-parent {
+    position: absolute;
+    top: 86px;
+    left: 1546px;
+    width: 177px;
+    height: 97px;
+    color: #faf9f6;
+}
+.menu-child {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    max-height: 100%;
+    width: 72px;
+}
+.incio1 {
+    position: absolute;
+    height: 48%;
+    width: 43.58%;
+    top: 0%;
+    left: 2.23%;
+    line-height: 16px;
+    display: inline-block;
+}
+.entrar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 16px;
+}
+.entrar-wrapper {
+    position: absolute;
+    top: 1px;
+    left: 101px;
+    width: 78px;
+    height: 16px;
+}
+.menu {
+    position: absolute;
+    top: 122px;
+    left: 1341px;
+    width: 179px;
+    height: 25px;
+}
+.incio {
+    position: absolute;
+    top: -60px;
+    left: -1px;
+    width: 1747px;
+    height: 2112.7px;
+}
+.frame-child {
+    position: absolute;
+    top: 768px;
+    left: 813px;
+    width: 778px;
+    height: 100px;
+    overflow: hidden;
+}
+.mapa1-2-icon {
+    position: absolute;
+    top: 1151px;
+    left: 180px;
+    width: 1428px;
+    height: 460px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.gps-2-icon {
+    position: absolute;
+    top: 1352px;
+    left: 505px;
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+.gps-1-icon {
+    position: absolute;
+    top: 1302px;
+    left: 935px;
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+.gps-3-icon {
+    position: absolute;
+    top: 1439px;
+    left: 1217px;
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+.incio-parent {
+    width: 100%;
+    position: relative;
+    height: 2052.7px;
+    text-align: left;
+    font-size: 25px;
+    color: #660996;
+    font-family: Montserrat;
+}
+
+
+.union-icon2 {
+    position: relative;
+    width: 503px;
+    height: 335.5px;
+}
+.frame-item {
+    position: absolute;
+    top: 111px;
+    left: 115px;
+    border-radius: 55px;
+    background-color: #660996;
+    border: 1px solid #fcb442;
+    box-sizing: border-box;
+    width: 327px;
+    height: 38px;
+}
+.group-child1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 55px;
+    background-color: #660996;
+    border: 1px solid #fcb442;
+    box-sizing: border-box;
+    width: 131px;
+    height: 38px;
+}
+.span {
+    font-size: 13px;
+}
+.cpfcnpjemail {
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    line-height: 30px;
+    font-weight: 900;
+    display: inline-block;
+    width: 112px;
+    height: 30px;
+}
+.group-child2 {
+    position: absolute;
+    top: 26px;
+    left: 13px;
+    max-height: 100%;
+    width: 105px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 62px;
+    left: 115px;
+    width: 131px;
+    height: 38px;
+}
+.do-utilizador-4-icon {
+    position: absolute;
+    top: 111px;
+    left: 61px;
+    border-radius: 85px;
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+}
+.group-child3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 55px;
+    background-color: #660996;
+    border: 1px solid #fcb442;
+    box-sizing: border-box;
+    width: 141px;
+    height: 38px;
+}
+.continuar {
+    position: absolute;
+    top: 3px;
+    left: 8px;
+    line-height: 30px;
+    font-weight: 900;
+    display: inline-block;
+    width: 125px;
+    height: 32px;
+}
+.rectangle-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 141px;
+    height: 38px;
+}
+.group-wrapper {
+    position: absolute;
+    top: 274px;
+    left: 190px;
+    width: 141px;
+    height: 38px;
+    cursor: pointer;
+    font-size: 22px;
+}
+.frame-inner {
+    position: absolute;
+    top: 217px;
+    left: 115px;
+    border-radius: 55px;
+    background-color: #660996;
+    border: 1px solid #fcb442;
+    box-sizing: border-box;
+    width: 327px;
+    height: 38px;
+}
+.group-child4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 55px;
+    background-color: #660996;
+    border: 1px solid #fcb442;
+    box-sizing: border-box;
+    width: 83px;
+    height: 38px;
+}
+.senha {
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    line-height: 30px;
+    font-weight: 900;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+}
+.esqueci-a-senha {
+    position: absolute;
+    top: 79px;
+    left: 213px;
+    text-decoration: underline;
+    line-height: 30px;
+    font-weight: 900;
+    text-align: left;
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+}
+.group-child5 {
+    position: absolute;
+    top: 26px;
+    left: 8px;
+    max-height: 100%;
+    width: 67px;
+}
+.rectangle-container {
+    position: absolute;
+    top: 168px;
+    left: 115px;
+    width: 333px;
+    height: 109px;
+    font-size: 13px;
+}
+.trancar-2-icon {
+    position: absolute;
+    top: 217px;
+    left: 61px;
+    border-radius: 85px;
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+}
+.union-root {
+    width: 503px;
+    position: relative;
+    height: 335.5px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    font-family: Montserrat;
+}
+
+
+.union-icon3 {
+    position: relative;
+    width: 503px;
+    height: 335.5px;
+}
+.pasta-1-icon {
+    position: absolute;
+    top: 0px;
+    left: 21px;
+    border-radius: 85px;
+    width: 137px;
+    height: 137px;
+    object-fit: cover;
+}
+.group-child6 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 55px;
+    background-color: #660996;
+    border: 1px solid #fcb442;
+    box-sizing: border-box;
+    width: 180px;
+    height: 84.7px;
+}
+.profissional {
+    position: absolute;
+    top: 21.04px;
+    left: 16.95px;
+    line-height: 30px;
+    font-weight: 900;
+    display: inline-block;
+    width: 151.4px;
+    height: 63.7px;
+}
+.group-child7 {
+    position: absolute;
+    top: 64.87px;
+    left: 16.95px;
+    max-height: 100%;
+    width: 145.5px;
+}
+.group-div {
+    position: absolute;
+    top: 149px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    width: 180px;
+    height: 84.7px;
+}
+.pasta-1-parent {
+    position: absolute;
+    top: 62px;
+    left: 48px;
+    width: 180px;
+    height: 233.7px;
+}
+.group-container {
+    position: absolute;
+    top: 62px;
+    left: 290px;
+    width: 180px;
+    height: 233.7px;
+}
+.union-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 503px;
+    height: 335.5px;
+}
+.group-parent {
+    width: 503px;
+    position: relative;
+    height: 335.5px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    font-family: Montserrat;
+}
+
