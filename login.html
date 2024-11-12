@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="background">
+        <!-- Tela Inicial com opções de Profissional e Usuário -->
+        <section id="inicio-screen" class="screen active">
+            <div class="login-container">
+                <div class="login-box">
+                    <div class="login-item">
+                        <div class="icon-container">
+                            <img src="./img/pro_icon.png" alt="Profissional Ícone" class="login-icons">
+                        </div>
+                        <div class="ellipse-login">
+                            <h2 class="text-login" onclick="showScreen('profissional-login')">Profissional</h2>
+                        </div>
+                    </div>
+                    <div class="login-item">
+                        <div class="icon-container">
+                            <img src="./img/user_icon.png" alt="Usuário Ícone" class="login-icons">
+                        </div>
+                        <div class="ellipse-login">
+                            <h2 class="text-login" onclick="showScreen('usuario-login')">Usuário</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tela de Login Profissional -->
+        <section id="profissional-login" class="screen hidden">
+            <div class="login-container">
+                <div class="login-box-small">
+                    <div class="tooltip">Email:</div>
+                    <div class="input-container">
+                        <img src="./img/mail_icon.png" alt="Email Ícone" class="input-icon">
+                        <input type="text" id="email-prof" placeholder="meuemail@email.com" class="input-field">
+                    </div>
+                
+                    <div class="tooltip">CPF/CNPJ:</div>
+                    <div class="input-container">
+                        <img src="./img/pro_icon.png" alt="CPF/CNPJ Ícone" class="input-icon">
+                        <input type="text" id="cpf-cnpj-prof" placeholder="123.456.789-10 / 12.345.678/9101-12" class="input-field">
+                    </div>
+                
+                    <div class="tooltip">Senha:</div>
+                    <div class="input-container">
+                        <img src="./img/password_icon.png" alt="Senha Ícone" class="input-icon">
+                        <input type="password" id="senha-prof" placeholder="senhatrokei123" class="input-field">
+                    </div>
+                
+                    <button class="login-button" onclick="saveData('profissional')">Salvar</button>
+
+                    
+                </div>
+            </div>
+        </section>
+        
+        <!-- Tela de Login Usuário -->
+        <section id="usuario-login" class="screen hidden">
+            <div class="login-container">
+                <div class="login-box-small">
+                    <div class="tooltip">Email:</div>
+                    <div class="input-container">
+                        <img src="./img/mail_icon.png" alt="Email Ícone" class="input-icon">
+                        <input type="text" id="email-user" placeholder="meuemail@email.com" class="input-field">
+                    </div>
+                
+                    <div class="tooltip">CPF:</div>
+                    <div class="input-container">
+                        <img src="./img/user_icon.png" alt="CPF Ícone" class="input-icon">
+                        <input type="text" id="cpf-user" placeholder="123.456.789-10" class="input-field">
+                    </div>
+                
+                    <div class="tooltip">Senha:</div>
+                    <div class="input-container">
+                        <img src="./img/password_icon.png" alt="Senha Ícone" class="input-icon">
+                        <input type="password" id="senha-user" placeholder="senhatrokei123" class="input-field">
+                    </div>
+                
+                    <button class="login-button" onclick="saveData('usuario')">Salvar</button>
+
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Outras telas de recuperação de senha e login -->
+        <section id="recovery-screen" class="screen hidden">
+            <div class="login-container">
+                <div class="login-box-small-password">
+                    <div class="tooltip">Informe seu email:</div>
+                    <div class="input-container">
+                        <img src="./img/mail_icon.png" alt="Email Ícone" class="input-icon">
+                        <input type="text" placeholder="Digite seu email" class="input-field">
+                    </div>
+                    <button class="login-button">Continuar</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="success-screen" class="screen hidden">
+            <div class="login-container">
+                <div class="login-box-small-password">
+                    <h3 class="pswr">Email de recuperação enviado</h3>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
+

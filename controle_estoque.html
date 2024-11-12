@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/controle_estoque.css">
+    <title>Trokei - Controle de Estoque</title>
+</head>
+<body>
+    <div class="background">
+        <section>
+            <img src="./img/logo_trokei.png" alt="Logo Trokei" class="logo-icon">
+            <div class="menu-div">
+                <h1 class="menu menu-profissional">Profissional</h1>
+                <h1 class="menu menu-inicio" onclick= window.location.href='index.html'>Início</h1>
+                <h1 class="menu menu-perfil" onclick= window.location.href='perfil_profissional.html'>Perfil</h1>
+                <img src="./img/user_icon.png" alt="Foto de Perfil" class="profile-pic">
+            </div>
+            <div class="login-container">
+                <div class="login-box-small-options">
+                    <h3 class="options-text">Troke a senha</h3>
+                    <h3 class="options-text">Sair</h3>
+                </div>
+            </div>
+            <div class="login-container">
+                <div class="login-box-small">
+                    <div class="tooltip">Senha atual:</div>
+                    <div class="input-container">
+                        <input type="text" placeholder="Senha atual" class="input-field">
+                    </div>
+                
+                    <div class="tooltip">Nova senha</div>
+                    <div class="input-container">
+                        <input type="text" placeholder="Nova senha" class="input-field">
+                    </div>
+                
+                    <div class="tooltip">Confirme a senha</div>
+                    <div class="input-container">
+                        <input type="text" placeholder="Confirme a senha" class="input-field">
+                    </div>
+                
+                    <button class="login-button">Continuar</button>
+                </div>
+            </div>
+            <div class="login-container">
+                <div class="login-box-small-options">
+                    <h3 class="options-text-pswr">Senha alterada com sucesso</h3>
+                </div>
+            </div>
+        </section>
+
+        <main>
+            <div class="title-box">
+                <h2 class="title">Controle do ponto de troca Rua Canitar</h2>
+            </div>
+
+            <div class="subtitle-box">
+                <h3 class="subtitle">Controle de estoque</h3>
+            </div>
+
+            <!-- Tabela de confirmação de item adicionado -->
+            <div class="table-add">
+                <table class="stock-table-add">
+                    <tr>
+                        <th>Código do produto</th>
+                        <th>Nome do item</th>
+                        <th>Condição</th>
+                        <th>Data de entrada</th>
+                        <th>Trokados</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>XXXX</td>
+                        <td>Nome do Item</td>
+                        <td>Condição</td>
+                        <td>XX/XX/XXXX</td>
+                        <td>XXXX</td>
+                        <td><img src="./img/check_icon.png" alt="Ícone de Check" class="check-icon"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="plus-icon">
+
+            </div>
+            
+            <div class="table-container">
+                <table class="stock-table">
+                    <tr>
+                        <th>Código do produto</th>
+                        <th>Nome do item</th>
+                        <th>Condição</th>
+                        <th>Data de entrada no estoque</th>
+                        <th><img src="./img/trokados_icon.png" alt="Trokados" class="trokados-icon"></th>
+                        <td><img src="./img/plus_icon.png" alt="Adicionar"></td>
+                    </tr>
+                    <tr>
+                        <td>12345678</td>
+                        <td>Coberta Manta Soft Casal Poa Grosso Microfibra Anti-alérgica</td>
+                        <td>Novo</td>
+                        <td>07/11/2024</td>
+                        <td>20</td>
+                        <td><img src="./img/minus_icon.png" alt="Ícone Menos"></td>
+                    </tr>
+                    <tr>
+                        <td>87654321</td>
+                        <td>Guarda Chuva Grande Abre E Fecha Automático Contra Vento</td>
+                        <td>Novo</td>
+                        <td>20/10/2024</td>
+                        <td>25</td>
+                        <td><img src="./img/minus_icon.png" alt="Ícone Menos"></td>
+                    </tr>
+                    <tr>
+                        <td>27954638</td>
+                        <td>Carregador De Pilha E Bateria Recarregaveis Aa Aaa 9v Bivolt</td>
+                        <td>Usado</td>
+                        <td>08/08/2024</td>
+                        <td>12</td>
+                        <td><img src="./img/minus_icon.png" alt="Ícone Menos"></td>
+                    </tr>
+                    <tr>
+                        <td>22467718</td>
+                        <td>Aspirador Pó E Água 14l 1250w Power Lavor + Bico Extratora</td>
+                        <td>Preservado</td>
+                        <td>19/05/2024</td>
+                        <td>112</td>
+                        <td><img src="./img/minus_icon.png" alt="Ícone Menos"></td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+
+        <footer>
+            <img src="./img/trokei_logo_orange_complete.png" alt="Logo Trokei" class="logo-footer">
+        </footer>
+    </div>
+</body>
+</html>

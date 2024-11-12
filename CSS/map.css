@@ -1,0 +1,267 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.background {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: linear-gradient(180deg, #F9D58F 2.2%, #F7E5B5 84.1%, #FDC66F 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-icon {
+    position: relative;
+    height: 152px;
+    margin-left: 37px;
+    margin-top: 20px;
+}
+
+.menu-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    gap: 20px;
+}
+
+.menu {
+    color: #660996;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.menu-profissional {
+    border-bottom: #FCB442 3px solid;
+}
+
+.menu-inicio:hover {
+    border-bottom: #FCB442 3px solid;
+    cursor: pointer;
+}
+
+.menu-perfil:hover {
+    border-bottom: #FCB442 3px solid;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 66px;
+    height: 66px;
+    cursor: pointer;
+}
+
+.login-container {
+    display: flex;
+    justify-content: right;
+    margin-top: -60px;
+}
+
+.login-box-small-options {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 200px;
+    width: 500px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #FCB442 30.1%, #E38850 66.1%);
+    box-shadow: 0px 16px 4px 0px rgba(0, 0, 0, 0.33);
+    padding: 40px;
+}
+
+.login-box-small-options {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 120px;
+    width: 500px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #FCB442 30.1%, #E38850 66.1%);
+    box-shadow: 0px 16px 4px 0px rgba(0, 0, 0, 0.33);
+    padding: 40px;
+}
+
+.options-text {
+    align-self: center;
+    width: 465px;
+    height: 183px;
+    background-color: #660996;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.options-text-pswr {
+    align-self: center;
+    width: 465px;
+    height: 38px;
+    background-color: #660996;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.tooltip {
+    display: flex;
+    align-items: center;
+    background-color: #660996;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-left: 40px; /* Ajuste o alinhamento para a esquerda */
+    position: relative;
+    width: fit-content;
+}
+
+.tooltip:after {
+    content: '';
+    position: absolute;
+    bottom: 6px;
+    left: 20%;
+    width: 60%;
+    height: 2px;
+    background-color: #FCB442;
+}
+
+
+.input-container {
+    display: flex;
+    align-items: center; /* Alinha o ícone ao lado do input */
+    width: 100%;
+    max-width: 500px;
+    gap: 10px;
+}
+
+.input-container img {
+    width: 30px;
+    height: 30px;
+}
+
+.input-field {
+    flex: 1;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #660996;
+    color: #FFF;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.input-icon {
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+}
+
+.login-button {
+    align-self: center;
+    width: 150px;
+    height: 50px;
+    background-color: #660996;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: right;
+    margin-top: -40px;
+    display: none;/* Inicialmente, o container de login não é exibido. Julio, quando for utilizar o javascrip com isso é so botar uma forma de alterar essa classe para display: */
+}
+
+.login-box-small {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 500px;
+    width: 600px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #FCB442 30.1%, #E38850 66.1%);
+    box-shadow: 0px 16px 4px 0px rgba(0, 0, 0, 0.33);
+    padding: 40px;
+    gap: 25px;
+}
+
+.login-box-small::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 85%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #FCB442;
+}
+
+.login-box-small-options::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 85%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #FCB442; /* Cor igual à da caixa */
+}
+
+.map-start{
+    width: 95%;
+    border: 10px solid #FCB442;
+    border-radius: 50px;
+    margin-left: 2.5%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    height: 800px;
+}
+
+footer {
+    width: 100%;
+    height: 252px;
+    background: #E3BFA8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer {
+    width: 309px;
+}
